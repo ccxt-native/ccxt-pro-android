@@ -1,0 +1,107 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+!**/src/main/assets/
+!**/src/main/res/
+!**/src/main/AndroidManifest.xml
+.idea/
+*.iml
+.gradle-wrapper.jar
+
+# Android Studio specific files
+.local/
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# External Native Build generated files
+.externalNativeBuild/
+
+# Android Studio Captures
+captures/
+
+# Keystore files (if you use one for signing your app)
+*.jks
+*.keystore
+
+# Gradle wrapper files
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Android SDK specific files
+.sdk/
+
+# NDK
+*.so
+*.a
+*.o
+*.obj
+*.lib
+*.dll
+*.dylib
+
+# JetBrains IDE specific files
+.idea/
+
+# Local configuration file (IDE, etc.)
+local.properties
+
+# Maven local repository
+/.m2/
+
+# Configuration file for signing
+signing.properties
+
+# Proguard mapping files (can be useful for debugging stack traces, but often large and shouldn't be versioned)
+proguard/
+
+# Generated files from running the app (like generated resources or APK files)
+*.apk
+*.ap_ 
+*.dex
+*.class
+*.jar
+
+# Intellij specific
+*.iws
+*.iml
+*.ipr
+
+# Temporary directories for builds
+temp/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work.sum
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
